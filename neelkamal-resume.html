@@ -1,198 +1,123 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV Layout</title>
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <title>Neelkamal's Resume</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
   <style>
     body {
-      margin: 10px;
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
     }
-
-    .container-fluid {
-      border-radius: 5px; /* Added border radius */
+    .resume-content {
+      background-color: #fff;
+      padding: 20px;
+      margin: 20px 0px 20px 0px;
+      border-radius: 5px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
-
-    .list-inline {
-      list-style: none;
-      margin: 0;
-      padding: 0;
+    h2 {
+      border-bottom: 5px solid blue;
+      padding : 0px 0px 5px 0px;
     }
-
-    .list-inline li {
+    .inline-list li {
       display: inline;
-      margin-right: 10px; /* Adjust as needed */
-      font-size: 0.9em; /* Adjusted font size */
+      margin-right: 10px;
     }
-
-    .list-1 {
-      margin-bottom: 10px; /* Added bottom margin */
-    }
-
-    .name {
-      font-size: 4em; /* 1.5 times the default font size */
-      margin-bottom: 20px; /* Bottom margin for the header */
-    }
-
-    /* Style for Profile Summary */
-    .profile-summary {
-      padding: 20px 20px 0px 20px; /* Added padding */
-    }
-
-    .profile-summary h3 {
-      border-bottom: 5px solid red; /* Bottom line */
-      padding-bottom: 5px; /* Add space between bottom line and paragraph */
-      color: #333; /* Heading color */
-    }
-
-    .profile-summary p {
-      margin-top: 15px; /* Add space above paragraph */
-    }
-    
-    .work-experience h5 {
-      margin-top: 15px; /* Add space above paragraph */
-    }
-    
-    .work-experience {
-      padding: 20px 20px 0px 20px; /* Added padding */
-    }
-    
-    .skills {
-      padding: 20px 20px 0px 20px; /* Added padding */
-    }
-    
-    .work-experience h3 {
-      border-bottom: 5px solid red; /* Bottom line */
-      padding-bottom: 5px; /* Add space between bottom line and paragraph */
-      color: #333; /* Heading color */
-    }
-    
-    .skills h3 {
-      border-bottom: 5px solid red; /* Bottom line */
-      padding-bottom: 5px; /* Add space between bottom line and paragraph */
-      color: #333; /* Heading color */
-    }
-    
-    .company-name, .position-date {
-      border-bottom: 2px solid blue; /* Bottom line */
-      padding-bottom: 5px; /* Add space between bottom line and paragraph */
-      color: #333; /* Heading color */
-    }
-
-    .work-experience h5 {
-      display: flex; /* Display as flex container */
-      justify-content: space-between; /* Align items to the start and end of the container */
-    }
-    
-    .position-date {
-      font-size : 16px;
-    }
-    
-    .skills ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .skills ul li {
-    display: inline;
-    margin-right: 10px; /* Adjust spacing between skills */
-  }
   </style>
 </head>
 <body>
-  <div class="container-fluid bg-primary py-3">
-    <h1 class="text-black name">Neelkamal</h1>
-    <ul class="list-inline list-1">
-      <li class="text-white"><strong>Phone :</strong> +971 525364362</li>
-      <li class="text-white"><strong>Email :</strong> Mailtobluelotus@gmail.com</li>
-      <br/>
-      <li class="text-white"><strong>LinkedIn :</strong> linkedin.com/in/lotusturnedblue</li><br/>
-    </ul>
-    <ul class="list-inline list-2">
-      <li class="text-white"><strong>Nationality :</strong> Indian</li>
-      <li class="text-white"><strong>Age :</strong> 23</li>
-      <li class="text-white"><strong>Gender :</strong> Male</li>
-      <br/>
-      <li class="text-white"><strong>Marital Status :</strong> Single</li>
-      <li class="text-white"><strong>Visa Status :</strong> Employment Visa</li>
-    </ul>
+
+  <div class="container">
+    <div class="row">
+        <div class="resume-content">
+          <h1 class="text-center mb-1 display-1">Neelkamal</h1>
+          <div class="text-center">
+            <div class="d-inline-block">
+              <p><strong>Phone:</strong> <a href="tel:+971525364362">+971525364362</a></p>
+            </div>
+            <div class="d-inline-block ml-3">
+              <p><strong>Email:</strong> <a href="mailto:Mailtobluelotus@gmail.com">Mailtobluelotus@gmail.com</a></p>
+            </div>
+            <div class="d-inline-block ml-3">
+              <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/lotusturnedblue" target="_blank">Linkedin.com/in/lotusturnedblue</a></p>
+            </div>
+          </div>
+          <h2 class="mt-4">Profile Summary</h2>
+          <p class="mt-3 ml-5">
+            Dedicated customer service professional with 1.5 years of experience providing high-quality service to passengers at Dubai International Airport. Seeking a challenging role in airline customer service to leverage my expertise in delivering a safe, efficient, and memorable travel experience, in line with international and local regulations.
+          </p>
+
+          <h2 class="mt-4">Work Experience</h2>
+          <div class="ml-5 mt-3">
+            <h4><strong>Special Handling Agent (DXB Airport)</strong> <span class="font-weight-light">Jun 2022 - Present</span></h4>
+            <h5 class="font-italic">Dulsco LLC | Dubai, UAE</h5>
+            <p>Dulsco Group is a UAE-born integrated solutions provider with a portfolio of businesses comprising: Dulsco People, Dulsco Environment, Parisima and Advance Global Recruitment (AGR).</p>
+            <ul>
+              <li>Provided exceptional customer service to passengers in various areas, including check-in, boarding, mishandled baggage, and special handling</li>
+              <li>Proficiently used customer handling systems, checked tickets and passports, allocated seats, weighed luggage, and managed excess charges</li>
+              <li>Monitored equipment and check-in areas to prevent operational delays and disruptions</li>
+              <li>Ensured baggage acceptance compliance with international and local regulations</li>
+              <li>Resolved passenger issues during the journey and escalated unresolved issues to the team leader</li>
+              <li>Assisted passengers with special needs and unaccompanied minors, ensuring all requirements were met</li>
+            </ul>
+            <h4><strong>Warehouse Worker (Loading Department)</strong> <span class="font-weight-light">Jan 2020 - Jul 2021</span></h4>
+            <h5 class="font-italic">Watsons Malaysia | Selangor, Malaysia</h5>
+            <p>Watsons Malaysia is part of AS Watsons Group, the world's largest international health and beauty retailer operating over 16,000 stores under 12 retail brands in 28 markets, with over 130,000 employees worldwide.</p>
+            <ul>
+              <li>Efficiently loaded and unloaded merchandise, ensuring timely stocking of products</li>
+              <li>Actively managed inventory to prevent discrepancies and troubleshoot issues as they arose</li>
+              <li>Collaborated with team members to meet stocking and inventory goals</li>
+              <li>Assisted in inventory counts and audits, ensuring accurate records</li>
+              <li>Prioritized safety in handling and storing products</li>
+            </ul>
+          </div>
+          <h2 class="mt-4">Education</h2>
+          <div class="mt-3 ml-5">
+            <h4><strong>Trade Certificate | Shahpur, Himachal Pradesh</strong> <span class="font-weight-light">Aug 2016 - Jul 2018</span></h4>
+            <ul>
+              <li>Graduated in Mechanic Refrigeration and Air Conditioning</li>
+            </ul>
+            <h4><strong>Intermediate | Dharmshala, Himachal Pradesh</strong> <span class="font-weight-light">Apr 2015 - Mar 2016</span></h4>
+            <ul>
+              <li>Graduated in Arts</li>
+            </ul>
+          </div>
+          <h2 class="mt-4">Skills</h2>
+          <div class="mt-3 ml-5 inline-list">
+              <ul>
+                <li>Attention to Detail,</li>
+                <li>Communication,</li>
+                <li>Customer Service,</li>
+                <li>Interpersonal Skills,</li>
+                <li>Problem Solving,</li>
+                <li>Teamwork,</li>
+                <li>Aviation,</li>
+                <li>Airport Operations,</li>
+                <li>Safety Awareness,</li>
+                <li>English</li>
+              </ul>
+          </div>
+          <h2 class="mt-4">Other Information</h2>
+          <div class="mt-3 ml-5">
+            <ul>
+              <li><strong>Languages:</strong> English (Fluent), Hindi (Native)</li>
+              <li><strong>Notice Period:</strong> 1 Month</li>
+            </ul>
+          </div>
+        </div>
+    </div>
   </div>
-  <!-- Profile Summary -->
-  <div class="profile-summary">
-    <h3>Profile Summary</h3>
-    <p>Dedicated customer service professional with 1.5 years of experience providing high-quality service
-to passengers at Dubai International Airport. Seeking a challenging role in airline customer service to
-leverage my expertise in delivering a safe, efficient, and memorable travel experience, in line with
-international and local regulations.</p>
-  </div>
-  <div class="work-experience">
-    <h3>Work Experience</h3>
-    <h5><span class="company-name">Dulsco LLC | Dubai, UAE</span> <span class="position-date">Jun 2022 - Present</span></h5>
-    <h6><i>Special Handling Agent (DXB Airport)</i></h6>
-    <p>Dulsco Group is a UAE-born integrated solutions provider with a portfolio of businesses comprising: Dulsco People, Dulsco Environment, Parisima and Advance Global Recruitment (AGR).<br/>Launched in 1935 as a workforce solutions provider, Dulsco has evolved to become a leader in People Solutions, Environmental Solutions, Talent Solutions and Energy Recruitment Solutions, servicing over 3,500 clients across a range of sectors.</p>
-    <ul>
-    <li>Provided exceptional customer service to passengers in various areas, including check-in,
-boarding, mishandled baggage, and special handling</li>
-    <li>Proficiently used customer handling systems, checked tickets and passports, allocated seats,
-weighed luggage, and managed excess charges</li>
-    <li>Monitored equipment and check-in areas to prevent operational delays and disruptions</li>
-    <li>Ensured baggage acceptance compliance with international and local regulations</li>
-    <li>Resolved passenger issues during the journey and escalated unresolved issues to the team
-leader</li>
-     <li>Assisted passengers with special needs and unaccompanied minors, ensuring all requirements
-were met</li>
-    </ul>
-    <h5><span class="company-name">Watsons Malaysia | Selangor, Malaysia</span> <span class="position-date">Jan 2020 - Jul 2021</span></h5>
-    <h6><i>Warehouse Worker (Loading Department)</i></h6>
-    <p>Watsons Malaysia is part of AS Watsons Group, the world's largest international health and beauty retailer operating over 16,000 stores under 12 retail brands in 28 markets, with over 130,000 employees worldwide.</p>
-    <ul>
-    <li>Efficiently loaded and unloaded merchandise, ensuring timely stocking of products</li>
-    <li>Actively managed inventory to prevent discrepancies and troubleshoot issues as they arose</li>
-    <li>Collaborated with team members to meet stocking and inventory goals</li>
-    <li>Assisted in inventory counts and audits, ensuring accurate records</li>
-    <li>Prioritized safety in handling and storing products</li>
-    </ul>
-  </div>
-  <div class="work-experience">
-    <h3>Education</h3>
-    <h5><span class="company-name">Trade Certificate | Shahpur, Himachal Pradesh</span> <span class="position-date">Aug 2016 - Jul 2018</span></h5>
-    <h6><i>Graduated in Mechanic Refrigeration and Air Conditioning</i></h6>
-    
-    <h5><span class="company-name">Intermediate | Dharmshala, Himachal Pradesh</span> <span class="position-date">Apr 2015 - Mar 2016</span></h5>
-    <h6><i>Graduated in Arts</i></h6>
-    
-    <h5><span class="company-name">Matriculation | Dharmshala, Himachal Pradesh</span> <span class="position-date">Apr 2013 - Mar 2014</span></h5>
-  </div>
-  
-  <div class="skills">
-  <h3>Skills</h3>
-  <ul>
-    <li>Attention to Detail</li>
-    <li>Communication</li>
-    <li>Customer Service</li>
-    <li>Interpersonal Skills</li>
-    <li>Problem Solving</li>
-    <li>Teamwork</li>
-    <li>Aviation</li>
-    <li>Airport Operations</li>
-    <li>Safety Awareness</li>
-    <li>English</li>
-  </ul>
-</div>
-  
-  <div class="skills">
-  <h3>Other Information</h3>
-  <h5><span class="company-name">Languages :</h5>
-    <ul>
-      <li>English (Fluent)</li>
-      <li>Hindi (Native)</li>
-    </ul>
-  <h5><span class="company-name">Notice Period :</h5>
-    <ul>
-      <li>1 Month</li>
-    </ul>
-</div>
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
